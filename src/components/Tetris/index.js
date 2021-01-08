@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { createStage } from '../../gameHelpers';
 
@@ -11,14 +11,22 @@ import Stage from '../Stage';
 import Display from '../Display';
 import StartButton from '../StartButton';
 
+import bgMusic from '../../assets/music/tetris_song.mp3'
+
 const Tetris = () => {
+    const [audio] = useState(new Audio(bgMusic));
     const [dropTime, setDropTime] = useState(null);
     const [gameOver, setGameOver] = useState(false);
+    const [playing, setPlaying] = useState(false);
 
     const [player, updatePlayerPos, resetPlayer] = usePlayer();
     const [stage, setStage] = useStage(player);
 
     console.log('re-render');
+
+    useEffect(() => {
+        playing ? audio.play() : audio.pause();
+    }, [playing]);
 
     const movePlayer = (dir) => {
         updatePlayerPos({ x: dir, y: 0 });
@@ -28,6 +36,7 @@ const Tetris = () => {
         // Reset everything
         setStage(createStage());
         resetPlayer();
+        setPlaying(true);
     }
 
     const drop = () => {
