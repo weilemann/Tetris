@@ -26,6 +26,7 @@ const Tetris = () => {
 
     useEffect(() => {
         playing ? audio.play() : audio.pause();
+        audio.loop = true;
     }, [playing]);
 
     const movePlayer = (dir) => {
