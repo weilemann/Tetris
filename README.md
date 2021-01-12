@@ -3,7 +3,9 @@
 ## 🖊Description
 This repository contains a fun Tetris Game with the old simple and nostalgic Tetris interface. The credits goes to Thomas Weibenfalk since most part of this application was developed by following tutorial his tutorial on freeCodeCamp.org YouTube channel.
 
-<img src="src/assets/gifs/Tetris.gif" /> 
+<p align="center">
+  <img src="src/assets/gifs/Tetris.gif" />
+</p>
 
 ## 💻Technologies
 This game was developed using React.JS, Styled Components and a lot of React and Customized Hooks.
