@@ -36,7 +36,7 @@ npm start
 ```
 
 ### And done! 🎉
-Now you can have extra dosis of nostalgia by playing the simple and incomparably fun game! Have fun! 🙂
+Now you can have extra dosis of nostalgia by playing this simple and incomparably fun game! Have fun! 🙂
 
 ## 🎮Controls
 <kbd>W</kbd> or <kbd>↑</kbd> - Rotate Tetromino
