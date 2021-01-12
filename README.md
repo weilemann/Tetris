@@ -39,13 +39,13 @@ npm start
 Now you can have extra dosis of nostalgia by playing the simple and incomparably fun game! Have fun! 🙂
 
 ## 🎮Controls
-<kbd>W</kbd> or <kbd>Up</kbd> - Rotate Tetromino
+<kbd>W</kbd> or <kbd>↑</kbd> - Rotate Tetromino
 
-<kbd>D</kbd> or <kbd>Right</kbd> - Move Tetromino to Right
+<kbd>D</kbd> or <kbd>→</kbd> - Move Tetromino to Right
 
-<kbd>A</kbd> or <kbd>Left</kbd> - Move Tetromino to Left
+<kbd>A</kbd> or <kbd>←</kbd> - Move Tetromino to Left
 
-<kbd>S</kbd> or <kbd>Down</kbd> - Drop Tetromino (keep pressed)
+<kbd>S</kbd> or <kbd>↓</kbd> - Drop Tetromino (keep pressed)
 
 ## 📜License
 This game was developed under the MIT License.
